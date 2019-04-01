@@ -1,0 +1,42 @@
+hello world
+
+Changing password for mailovemisa.
+Changing password for mailovemisa.
+Changing password for mailovemisa.
+
+Mon Apr  1 10:11:30 +07 2019
+
+mailovemisa
+
+x86_64
+
+Linux mailovemisa 4.15.0-20-generic #21-Ubuntu SMP Tue Apr 24 06:16:15 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+[    0.000000] Linux version 4.15.0-20-generic (buildd@lgw01-amd64-039) (gcc version 7.3.0 (Ubuntu 7.3.0-16ubuntu3)) #21-Ubuntu SMP Tue Apr 24 06:16:15 UTC 2018 (Ubuntu 4.15.0-20.21-generic 4.15.17)
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-20-generic root=UUID=18ba0122-2983-4074-af1a-2f0952d894db ro quiet splash vt.handoff=1
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Centaur CentaurHauls
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+[    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+
+ 10:12:17 up  1:32,  1 user,  load average: 1.33, 1.39, 1.57
+
+(no output)
+
+mailovemisa
+
+mailovemisa tty7         2019-04-01 08:41 (:0)
+
+uid=1000(mailovemisa) gid=1000(mailovemisa) groups=1000(mailovemisa),4(adm),20(dialout),24(cdrom),27(sudo),30(dip),46(plugdev),115(lpadmin),127(sambashare),130(wireshark)
+
+wtmp begins Mon Apr  1 08:45:56 2019
+
+Login        Name          Tty      Idle  Login Time   Office     Office Phone
+mailovemisa  mailovemisa   tty7     1:35  Apr  1 08:41 (:0)
+
+ 10:16:00 up  1:35,  1 user,  load average: 1.31, 1.30, 1.48
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+mailovem tty7     :0               08:41    1:35m  2:05   0.41s cinnamon-session --session cinnamon
