@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
+#include <wait.h>
 
 int main(){
   int status, pid1, pid2;
@@ -13,6 +14,7 @@ int main(){
     }
   }
   else {
+    waitpid(pid1, NULL, 0);
     printf("This is parent after fork, child is %d\n\tContinue to create another child\n", pid1);
     pid2 = fork();
     if(pid2 == 0){
@@ -22,7 +24,10 @@ int main(){
         printf("Fail to execute \"free -h\"\n");
       }
     }
-    else printf("This is parent after 2 forks, second child is %d\nNothing to do more.\n", pid2);
+    else {
+      printf("This is parent after 2 forks, second child is %d\nNothing to do more.\n", pid2);
+      waitpid(pid2, NULL, 0);
+    }
   }
   return 0;
 }
