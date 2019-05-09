@@ -56,11 +56,13 @@ void *produceThread(void *param){
   printf("This is produce thread\n");
   produce(initItem('1',3,'0'));
   produce(initItem('0',9,'1'));
+  produce(initItem('0',3,'0'));
 }
 
 //consume routine
 void *consumeThread(void *param){
   printf("This is consume thread\n");
+  consume();
   consume();
 }
 
